@@ -1,0 +1,15 @@
+Question: Choose the correct options to add a paragraph in a div using DOM.
+
+Answers: a - var myDiv = document.getElementById("myDivID");
+             myDiv.appendChild(document.createElement("p"));
+
+         b - var myDiv = document.getElementById("myDivID");
+             var myParagraph = document.createElement("p");
+             myDiv.appendChild(myParagraph);
+
+         c - var myDiv = document.getElementById("myDivID");
+             myDiv.appendChild("p");
+
+         d - document.getElementById("myDivID").appendChild(document.createElement("p"));
+
+Correct answers: a, b and c

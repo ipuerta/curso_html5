@@ -1,0 +1,13 @@
+Question: If you hace this code:
+          <div style="color:blue; font-style:italic">
+            <p style="color:red">text</p>
+          </div>
+
+          With styles will be applied to the text?
+
+Answers: a - Color blue and italic.
+         b - Only color red.
+         c - Color red and italic.
+         d - Only italic.
+
+Correct answer: c
