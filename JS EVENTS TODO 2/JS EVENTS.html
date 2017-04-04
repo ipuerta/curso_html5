@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS EVENTS TODO 2</title>
+  </head>
+  <body>
+    <h1>Open console in your browser and write in the text area</h1>
+    <textarea id="myTextarea" rows="8" cols="80"></textarea>
+
+    <script>
+      function handleKey(e) {
+        var key = e.key;
+        console.log(key);
+      }
+
+      var textarea = document.getElementById("myTextarea");
+      textarea.addEventListener("keypress", handleKey, false);
+    </script>
+  </body>
+</html>
