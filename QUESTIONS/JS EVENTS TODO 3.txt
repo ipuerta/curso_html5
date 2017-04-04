@@ -1,0 +1,8 @@
+Question: Select the correct affirmations about event listeners:
+
+Aswers: a - Add an event listener directly in an HTML item instead using the "addEventListener" is better, because is easier to mantain the code.
+        b - You only can add a listener to an event and an HTML item without using de "addEventListener".
+        c - You can use the same function to handle events in different HTML items.
+        d - You can't add and event listener for click event to an HTML item with the on-click attribute.
+
+Correct asnwers: b and c
