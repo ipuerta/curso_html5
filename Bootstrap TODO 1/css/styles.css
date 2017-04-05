@@ -1,0 +1,33 @@
+/*Background image for div container*/
+.gaia {
+  background-image: url('../img/GaiaSkyMap.png');
+  background-size: 100% 100%;
+}
+
+/*Images dimensions*/
+.imgTitle {
+  width: 250px
+  height: 250px
+}
+
+.imgFilms {
+  width: 250px
+  height: 250px
+  border-radius: 50%;
+}
+
+/*Align rows and columns*/
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.contain-centered {
+  margin: 0 auto;
+}

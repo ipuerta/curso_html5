@@ -1,0 +1,8 @@
+Question: Select the correct option.
+
+Answers: a - A "describe" block can contain one or more "expect" blocks, but an "expect" block only can contain one "it" statement.
+         b - An "it" block can contain only one "describe" block, but a "describe" block can contain one or more "expect" statements.
+         c - A "describe" block can contain one or more "it" blocks, but a "it" block only can contain one "expect" statement.
+         d - A "describe" block can contain one o more "it" blocks, and an "it" block can contain one or more "expect" statements.
+
+Correct answer: d
