@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- If you need to support IE 9 or IE 8-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- So responsive design works in small mobile devices (phones,...) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boostrap TODO 1</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+  </head>
+  <body>
+    Texto por defecto <small>con texto small</small>
+    <p>Texto en un párrafo <small>con texto small</small></p>
+    <p class="lead">Texto en un párrafo con clase "lead"</p>
+    <p class="small">Texto en un párrafo con clase "small"</p>
+    <p class="text-left">Texto en un párrafo con clase "text-left" para alinear a la izquierda</p>
+    <p class="text-center">Texto en un párrafo con clase "text-center" para centrar el texto</p>
+    <p class="text-right">Texto en un párrafo con clase "text-right" para alinear a la derecha</p>
+    <p class="text-justify">Texto en un párrafo con clase "text-justify" para que cuanto se produzca un salto de línea, el texto pase a ocupar la línea entera</p>
+    <p class="text-nowrap">Texto en un párrafo con clase "text-nowrap", para evitar que el texto colapse cuando se redimensiona la pantalla</p>
+    <p class="text-lowercase">TeXtO en un Párrafo con clase "text-lowercase" para pasarlo a MINÚSCULAS</p>
+    <p class="text-uppercase">TeXtO en un Párrafo con clase "text-uppercase" para pasarlo a MAYÚSCULAS</p>
+    <p class="text-capitalize">TeXtO en un Párrafo con clase "text-capitalize" para poner la primera letra de cada palabra en MAYÚSCULAS</p>
+    <h1>Texto en H1 <small>con texto small</small></h1>
+    <h2>Texto en H2 <small>con texto small</small></h2>
+    <h3>Texto en H3 <small>con texto small</small></h3>
+    <h4>Texto en H4 <small>con texto small</small></h4>
+    <h5>Texto en H5 <small>con texto small</small></h5>
+    <h6>Texto en H6 <small>con texto small</small></h6>
+    Texto por defecto <strong>con texto strong</strong> <em>y texto em</em>
+    Texto por defecto <del>con texto del</del>, <s>texto s</s>, <ins>texto ins</ins> <u>y texto u</u>
+    <address>
+    Texto escrito dentro <br>
+    de una etiqueta <br>
+    adress <br>
+    donde es necesario utilizar el "br" para los saltos de línea
+    </address>
+    Texto por defecto <mark>con texto mark</mark>
+    Texto por defecto <abbr title="abreviatura">con texto abbr</abbr>
+    Texto por defecto <abbr title="abreviatura" class="initialism">con texto abbr y clase "initialism"</abbr>
+    Texto por defecto, y a continuación un blockquote
+    <blockquote>este es el blockquote</blockquote>
+    Texto por defecto, y a continuación un blockquote reverse
+    <blockquote class="blockquote-reverse">este es el blockquote</blockquote>
+    Texto por defecto con un <code>code</code>
+    Texto por defecto con un <kbd>kbd</kbd>
+    Texto por defecto con un <var>var</var>
+    Texto por defecto con un <samp>samp</samp>
+    <pre>Texto metido en un pre, el texto se mete dentro de un recuadro,
+y si se reduce la resolución de forma que el texto no entra en la línea, se añade una barra inferior al recuadro, conservando todo el texto
+en la misma línea.
+Además, para meter saltos de línea no es necesario utilizar la etiqueta <code>br</code>, y no etiquetas como el code, pero esta se carga el mantener el texto en una línea cuando se reduce
+la resolución.
+    </pre>
+    <pre class="pre-scrollable">Texto metido en un pre con clase "pre-scrollable",
+el texto se mete dentro de un recuadro,
+y si se reduce la resolución de forma que el texto no entra en la línea,
+se añade una barra inferior al recuadro, conservando todo el texto
+en la misma línea.
+Además, para meter saltos de línea
+no es necesario utilizar la etiqueta <code>br</code>, y no etiquetas como el code,
+pero esta se carga el mantener el texto en una línea cuando se reduce
+la resolución.
+    </pre>
+    <h1>Description list:</h1>
+    <dl>
+      <dt>Definition term 1</dt>
+      <dd>Description 1.1</dd>
+      <dd>Description 1.2</dd>
+      <dt>Definition term 2</dt>
+      <dd>Description 2.1</dd>
+      <dd>Description 2.2</dd>
+    </dl>
+    <h1>Description list con clase "dl-horizontal":</h1>
+    <dl class="dl-horizontal">
+      <dt>Definition term 1</dt>
+      <dd>Description 1.1</dd>
+      <dd>Description 1.2</dd>
+      <dt>Definition term 2</dt>
+      <dd>Description 2.1</dd>
+      <dd>Description 2.2</dd>
+    </dl>
+    <h1>Lista de tipo "ul" normal</h1>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3
+        <ul>
+          <li>Item 3.1</li>
+          <li>Item 3.2</li>
+        </ul>
+      </li>
+    </ul>
+    <h1>Lista con clase "list-unstyled"</h1>
+    <ul class="list-unstyled">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3
+        <ul class="list-unstyled">
+          <li>Item 3.1</li>
+          <li>Item 3.2</li>
+        </ul>
+      </li>
+    </ul>
+    <h1>Lista con clase "list-inline"</h1>
+    <ul class="list-inline">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3
+        <ul class="list-inline">
+          <li>Item 3.1</li>
+          <li>Item 3.2</li>
+        </ul>
+      </li>
+    </ul>
+    <h1>Colores de texto:</h1>
+    <p class="text-muted">Texto con clase "text-muted"</p>
+    <p class="text-primary">Texto con clase "text-primary"</p>
+    <p class="text-success">Texto con clase "text-success"</p>
+    <p class="text-info">Texto con clase "text-info"</p>
+    <p class="text-warning">Texto con clase "text-warning"</p>
+    <p class="text-danger">Texto con clase "text-danger"</p>
+    <h1>Colores de fondo:</h1>
+    <p class="bg-primary">Texto con clase "bg-primary"</p>
+    <p class="bg-success">Texto con clase "bg-success"</p>
+    <p class="bg-info">Texto con clase "bg-info"</p>
+    <p class="bg-warning">Texto con clase "bg-warning"</p>
+    <p class="bg-danger">Texto con clase "bg-danger"</p>
+  </body>
+</html>
