@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- If you need to support IE 9 or IE 8-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- So responsive design works in small mobile devices (phones,...) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Botones con Bootstrap</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+  <!-- Importar estos JS para que funcione el menú desplegable -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h2>Tipos de botones</h2>
+    <button type="button" class="btn">Clase "btn"</button>
+    <button type="button" class="btn btn-default">Clase "btn-defaul"</button>
+    <button type="button" class="btn btn-primary">Clase "btn-primary"</button>
+    <button type="button" class="btn btn-success">Clase "btn-success"</button>
+    <button type="button" class="btn btn-info">Clase "btn-info"</button>
+    <button type="button" class="btn btn-warning">Clase "btn-warning"</button>
+    <button type="button" class="btn btn-danger">Clase "btn-danger"</button>
+    <button type="button" class="btn btn-link">Clase "btn-link"</button>
+
+    <h2>Etiquetas en las que se pueden utilizar las clases de los botones</h2>
+    <a href="#" class="btn btn-info" role="button">Etiqueta "a"</a>
+    <button type="button" class="btn btn-info">Etiqueta "button"</button>
+    <input type="button" class="btn btn-info" value="Etiqueta 'input', tipo 'button'">
+    <input type="submit" class="btn btn-info" value="Etiqueta 'input', tipo 'submit'">
+
+    <h2>Tamaño de botones</h2>
+    <button type="button" class="btn btn-primary btn-lg">Large</button>
+    <button type="button" class="btn btn-primary btn-md">Medium</button>
+    <button type="button" class="btn btn-primary btn-sm">Small</button>
+    <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+    <br>
+    <br>
+    <button type="button" class="btn btn-primary btn-block">Botón tamaño "btn-block": ocupa todo el ancho del padre</button>
+
+    <h2>Activar y desactivar botones</h2>
+    <button type="button" class="btn btn-primary active">Botón activo</button>
+    <button type="button" class="btn btn-primary disabled">Botón inactivo</button>
+
+    <h2>Botón en barra de navegación</h2>
+    <p>Se utiliza la clase "navbar-btn" para que quede verticalmente alineado</p>
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+      <button class="btn btn-danger navbar-btn">Button</button>
+    </div>
+    </nav>
+
+    <h2>Agrupar botones</h2>
+    <h3>Agrupación normal</h3>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+    <h3>Agrupación justificada</h3>
+    <div class="btn-group btn-group-justified">
+      <a href="#" class="btn btn-primary">Apple</a>
+      <a href="#" class="btn btn-primary">Samsung</a>
+      <a href="#" class="btn btn-primary">Sony</a>
+    </div>
+    <h3>Botones grandes</h3>
+    <div class="btn-group btn-group-lg">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+    <h3>Botones pequeños</h3>
+    <div class="btn-group btn-group-sm">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+    <h3>Botones muy pequeños</h3>
+    <div class="btn-group btn-group-xs">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+    <h3>Grupo vertical</h3>
+    <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+    <h3>Junto con los botones, se puede agrupar un menú desplegable</h3>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Sony <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Smartphone</a></li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <h3>Otra forma</h3>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Sony</button>
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Tablet</a></li>
+        <li><a href="#">Smartphone</a></li>
+      </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>
